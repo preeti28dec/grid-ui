@@ -1,13 +1,15 @@
 import React from 'react'
 
 import Header from './Header'
+import Item_8 from './Item_8'
+import Item_9 from './Item_9'
 
 function RightSideBar() {
   return (
 
     <div className=''>
       <Header />
-      <div className="cards mx-6 my-6">
+      <div className="cards mx-6 my-6 ">
         <div className="card item1 bg-green-200 flex">
 
           <div className='my-6'>
@@ -77,27 +79,14 @@ function RightSideBar() {
         </div>
 
 
-        <div className="card  bg-green-200 item8">
-          <div>  New Invoice </div>
-          <div className=''>
-
-
-            <div className='flex justify-between'>
-              <div>Invoice ID</div>
-              <div>Categrory</div>
-              <div>Price</div>
-              <div>Status</div>
-            </div>
-              <div className='flex justify-between'>
-                <div>The Sliding Mr</div>
-                <div>Malcolm Lockyer</div>
-                <div>1961</div>
-                <div>1961</div>
-              </div>
-          </div>
+        <div className="card bg-slate-100 item8">
+          <div className='text-lg font-bold text-gray-600 py-4 px-4'>New Invoice </div>
+          <Item_8/>
         </div>
 
-        <div className="card  bg-green-200 item9">NINE</div>
+        <div className="card  bg-slate-100 item9">
+          <Item_9/>
+        </div>
 
         <div className="card  bg-green-200 item10">TEN</div>
 

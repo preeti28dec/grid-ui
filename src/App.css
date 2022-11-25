@@ -1,3 +1,10 @@
+body{
+  line-height: 1.5;
+  font-size: 1rem;
+  font-family: "public sans",sans-serif;
+  font-weight: 400;
+}
+
 .main_body {
   display: flex;
 }
@@ -95,4 +102,8 @@
   /* .left_sidebar{
     display: hidden;
   } */
+}
+
+.left_sidebar_scroll{
+
 }
